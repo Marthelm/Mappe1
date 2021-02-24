@@ -1,6 +1,8 @@
-package marthelm.mappe_del1.hospital;
+package marthelm.mappe_del1.hospital.healtpersonell;
 
-public class Nurse extends Employee{
+import marthelm.mappe_del1.hospital.Employee;
+
+public class Nurse extends Employee {
     public Nurse(String lastName, String firstName, String socialSecurityNumber) {
         super(lastName, firstName, socialSecurityNumber);
     }
