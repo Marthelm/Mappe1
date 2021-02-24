@@ -24,7 +24,7 @@ public class Department {
         return employees;
     }
 
-    public void addEmployee(Employee e){
+    public void addEmployee (Employee e){
         if (!employees.equals(e)) {
             employees.add(e);
         } else {
@@ -36,7 +36,7 @@ public class Department {
         return patients;
     }
 
-    public void addPatien(Patient p){
+    public void addPatient (Patient p){
         if (!patients.equals(p)){
             patients.add(p);
         } else {
